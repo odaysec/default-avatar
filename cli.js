@@ -35,7 +35,7 @@ const yargs = require('yargs')
         colors    : {
             alias   : 'c',
             describe: 'Number of colors',
-            choices : [1, 2],
+            choices : [1, 2], 
             default : squareicon.DEFAULT.colors,
         },
         pixels    : {
